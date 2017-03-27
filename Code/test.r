@@ -20,8 +20,10 @@ setwd(ddir)
 train.clin=read.csv("survdata.csv", header=T, sep=",")
 colnames(train.clin)
 
+## colors for two groups
 linecols=c('gray70', 'gray30')
 linetype=c(1,1)
+## colors for four groups
 linecols2=c('gray70', 'gray30', 'gray70', 'gray30')
 linetype2=c(3,3,1,1)
 linewd=1
